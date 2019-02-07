@@ -75,7 +75,7 @@ is defined by creating a **route** in the ``config/routes.yaml`` file:
         path: /lucky/number
         controller: App\Controller\LuckyController::number
 
-That's it! If you are using Symfony web server, try it out by going to:
+That's it! If you are using the Symfony web server, try it out by going to:
 
     http://localhost:8000/lucky/number
 
@@ -265,7 +265,7 @@ Great news! You've already worked inside the most important directories in your
 project:
 
 ``config/``
-    Contains... configuration of course!. You will configure routes, :doc:`services </service_container>`
+    Contains... configuration of course! You will configure routes, :doc:`services </service_container>`
     and packages.
 
 ``src/``
